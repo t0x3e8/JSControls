@@ -1,0 +1,6 @@
+G:\MyProjects\JavaScript projects\JSControls\js Controls\bin\js Controls.dll.config
+G:\MyProjects\JavaScript projects\JSControls\js Controls\bin\js Controls.dll
+G:\MyProjects\JavaScript projects\JSControls\js Controls\bin\js Controls.pdb
+G:\MyProjects\JavaScript projects\JSControls\js Controls\obj\Debug\js Controls.csprojResolveAssemblyReference.cache
+G:\MyProjects\JavaScript projects\JSControls\js Controls\obj\Debug\js Controls.dll
+G:\MyProjects\JavaScript projects\JSControls\js Controls\obj\Debug\js Controls.pdb
