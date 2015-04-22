@@ -59,6 +59,13 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="styles\site.css">
+      <DependentUpon>site.less</DependentUpon>
+    </Content>
+    <Content Include="styles\site.less" />
+    <Content Include="styles\site.css.map">
+      <DependentUpon>site.css</DependentUpon>
+    </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -71,6 +78,11 @@
     <Content Include="scripts\myControl.js" />
     <Content Include="scripts\myControl.roundChart.js" />
     <Content Include="scripts\myControl.utils.js" />
+    <Content Include="scripts\vendors\jquery.js" />
+    <None Include="scripts\_references.js" />
+    <Content Include="styles\site.min.css">
+      <DependentUpon>site.css</DependentUpon>
+    </Content>
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
