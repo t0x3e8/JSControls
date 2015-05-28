@@ -3,4 +3,6 @@ This project is create for educational purposes, to study JavaScript and develop
 
 You can copy, modify and even make fortune on this project. I am fine with this ;) Enjoy!
 
+
+
 ![alt tag](https://github.com/t0x3e8/JSControls/blob/master/demo.jpg)
