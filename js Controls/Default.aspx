@@ -28,7 +28,7 @@
                 value: '34',
                 label: 'of trans * people reported physical abuse in a 2007 survey',
                 primaryColor: '#db5633',
-                secondaryColor: '#e3faff',
+                secondaryColor: '#fffafa',
                 circleBorderRatio: 0.15, 
             }
         });
@@ -42,7 +42,7 @@
                 value: '34',
                 label: 'this is test label',
                 primaryColor: '#db5633',
-                secondaryColor: '#e3faff',
+                secondaryColor: '#fffafa',
                 barWidthRatio: 0.15,
             }
         })
