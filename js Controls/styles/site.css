@@ -1,12 +1,30 @@
 ﻿body {
   background-color: #abebfb;
 }
+#circleContainer,
+#stackBarContainer {
+  width: 400px;
+  float: left;
+}
 .roundChart-canvas {
   height: 300px;
   width: 300px;
   background-color: transparent;
 }
 .roundChart-label {
+  font: 25px Arial;
+  color: #db5633;
+  width: 300px;
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: center;
+}
+.stackBarChart-canvas {
+  height: 300px;
+  width: 300px;
+  background-color: transparent;
+}
+.stackBarChart-label {
   font: 25px Arial;
   color: #db5633;
   width: 300px;

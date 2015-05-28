@@ -6,25 +6,47 @@
 
     <script src="scripts/vendors/jquery.js"></script>
     <script src="scripts/myControl.js"></script>
+    <script src="scripts/myControl.utils.js"></script>
     <script src="scripts/myControl.roundChart.js"></script>
+    <script src="scripts/myControl.stackBarChart.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="The description of my page" />
 </head>
 <body>
-    <div id="container"></div>
+    <div id="circleContainer"></div>
+    <div id="stackBarContainer"></div>
 </body>
 </html>
 
 <script type="text/javascript">
     $(document).ready(function () {
-        myControl.configModule({
-            chart_type: 'circle',
+        var circleChart = myControl;
+
+        circleChart.configModule({
+            chartType: 'circle',
             data: {
-                value: '35',
+                value: '34',
                 label: 'of trans * people reported physical abuse in a 2007 survey',
-                primary_color: '#db5633',
-                secondary_color: '#e3faff',
-                circle_border_ratio: 0.15, 
+                primaryColor: '#db5633',
+                secondaryColor: '#e3faff',
+                circleBorderRatio: 0.15, 
             }
         });
-        myControl.initModule($('#container'));
+        circleChart.initModule($('#circleContainer'));
+
+
+        var stackBarChart = myControl;
+        stackBarChart.configModule({
+            chartType: 'stackBar',
+            data: {
+                value: '34',
+                label: 'this is test label',
+                primaryColor: '#db5633',
+                secondaryColor: '#e3faff',
+                barWidthRatio: 0.15,
+            }
+        })
+
+        stackBarChart.initModule($('#stackBarContainer'));
     });
 </script>

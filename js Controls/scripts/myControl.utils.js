@@ -1,7 +1,4 @@
-﻿/*
- * 
- * 
- */
+﻿/*global myControl */
 
 myControl.utils = (function () {
     'use strict';
@@ -39,14 +36,14 @@ myControl.utils = (function () {
         var inputMap = argMap.inputMap,
             settableMap = argMap.settableMap,
             configMap = argMap.configMap,
-            keyName, error;
+            keyName,
+            error;
 
         for (keyName in inputMap) {
             if (inputMap.hasOwnProperty(keyName)) {
                 if (settableMap.hasOwnProperty(keyName)) {
                     configMap[keyName] = inputMap[keyName];
-                }
-                else {
+                } else {
                     error = makeError('Bad input', 'Setting config key [' + keyName + '] is not supported.');
                     throw error;
                 }
@@ -56,7 +53,7 @@ myControl.utils = (function () {
 
     return {
         setConfigMap: setConfigMap,
-        makeError: makeError,
+        makeError: makeError
     };
 
 }());
